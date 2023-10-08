@@ -1,0 +1,15 @@
+﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+<!-- breadcrumb start -->
+<section class="breadcrumb">
+    <div class="container-fluid">
+        <div class="links">
+            <a href="home.html">@Model.Value("breadcrumbHomeText")</a>
+            <a href="letsconnect.html">@Model.Value("breadcrumbCurrentPageText")</a>
+        </div>
+        <h1>@Model.Value("breadcrumbTitle")</h1>
+        <div class="picture">
+            <img src="media/breadcrumbline.svg" alt="">
+        </div>
+    </div>
+</section>
+<!-- breadcrumb end -->

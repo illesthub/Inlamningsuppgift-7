@@ -1,0 +1,935 @@
+.wrapper {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+.yellow-btn {
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #191919;
+  background-color: #F9D783;
+  border-radius: 25px;
+  border: none;
+}
+.yellow-btn i {
+  color: #191919;
+  text-decoration: none;
+}
+
+.white-btn {
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #191919;
+  background-color: #F0EFE9;
+  border-radius: 25px;
+  border: 1px solid #191919;
+}
+.white-btn i {
+  color: #191919;
+  text-decoration: none;
+}
+
+.black-btn {
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+  background-color: #191919;
+  border-radius: 25px;
+  border: 1px solid #191919;
+}
+.black-btn i {
+  color: white;
+  text-decoration: none;
+}
+
+.transparent-btn {
+  padding: 10px 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #191919;
+  border-radius: 25px;
+  border: 1px solid #191919;
+}
+.transparent-btn i {
+  color: #191919;
+  text-decoration: none;
+}
+
+.aboveheadline {
+  color: #F94D1C;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1 {
+  color: #191919;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p {
+  line-height: 5px;
+  color: #191919;
+}
+
+.header {
+  font-size: 15px;
+  background-color: #F0EFE9;
+}
+.header container {
+  align-items: center;
+  justify-content: center;
+}
+.header container .menu {
+  display: grid;
+  grid-template-rows: repeat(3, 40px);
+  grid-template-columns: repeat(13, 100px);
+}
+.header container .menu .logo {
+  grid-area: 1/1/-1/3;
+}
+.header container .menu .contactinfo {
+  grid-area: 1/3/2/13;
+  display: flex;
+  align-items: center;
+  color: rgba(25, 25, 25, 0.6431372549);
+  font-size: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(25, 25, 25, 0.6431372549);
+}
+.header container .menu .contactinfo .phonenumber {
+  padding-right: 30px;
+  border-right: 1px solid rgba(25, 25, 25, 0.6431372549);
+}
+.header container .menu .contactinfo .email {
+  padding-left: 12px;
+  padding-right: 30px;
+  border-right: 1px solid rgba(25, 25, 25, 0.6431372549);
+}
+.header container .menu .contactinfo .adress {
+  padding-left: 12px;
+}
+.header container .menu .contactinfo i {
+  color: #191919;
+}
+.header container .menu .socialmedia {
+  grid-area: 1/13/2/-1;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(25, 25, 25, 0.6431372549);
+}
+.header container .menu .socialmedia a {
+  margin-left: 9px;
+}
+.header container .menu .socialmedia i {
+  color: #191919;
+}
+.header container .menu .socialmedia i :hover {
+  transition: ease-in-out 0.3s;
+  color: #F9D783;
+}
+.header container .menu .routingpages {
+  grid-area: 2/3/-1/6;
+}
+.header container .menu .routingpages a {
+  margin-right: 30px;
+  color: #191919;
+  text-decoration: none;
+}
+.header container .menu .routingpages a a:hover {
+  text-decoration: underline;
+}
+.header container .menu .routingpages .contact {
+  margin-right: 0px;
+}
+.header container .menu .yellow-btn {
+  grid-area: 2/13/-1/-1;
+}
+
+.getconsulting {
+  background-color: #F0EFE9;
+}
+.getconsulting .container {
+  display: grid;
+  grid-template-rows: 770px;
+  grid-template-columns: 700px 700px;
+}
+.getconsulting .container .providingsolutions {
+  grid-area: 1/1/-1/2;
+  margin-top: 160px;
+}
+.getconsulting .container .providingsolutions h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.getconsulting .container .providingsolutions button {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.getconsulting .container .picture {
+  grid-area: 1/2/-1/-1;
+}
+
+.partners {
+  background-color: white;
+  align-items: center;
+}
+.partners .container {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.partners .container .firstbox {
+  padding: 20px 20px 20px 0px;
+}
+.partners .container .partnerbox {
+  padding: 20px;
+}
+
+.accountingadvice {
+  background-color: white;
+}
+.accountingadvice .container-fluid {
+  width: 1520px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #191919;
+}
+.accountingadvice .container-fluid .container {
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: repeat(5, 250px);
+  gap: 40px;
+}
+.accountingadvice .container-fluid .container .accountingfeatures {
+  grid-area: 1/1/-1/3;
+}
+.accountingadvice .container-fluid .container .accountingfeatures p {
+  color: #F94D1C;
+  font-size: 18px;
+  font-weight: 600;
+}
+.accountingadvice .container-fluid .container .accountingfeatures h1 {
+  color: #191919;
+  font-weight: bold;
+}
+.accountingadvice .container-fluid .container .accountingfeatures .yellow-btn {
+  width: 390px;
+  height: 56px;
+  margin-top: 30px;
+}
+.accountingadvice .container-fluid .container .businessadvice {
+  grid-area: 1/3/2/4;
+}
+.accountingadvice .container-fluid .container .businessadvice h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.accountingadvice .container-fluid .container .businessadvice p {
+  line-height: 5px;
+  margin-top: 20px;
+  color: #191919;
+}
+.accountingadvice .container-fluid .container .startupbusiness {
+  grid-area: 1/4/2/5;
+}
+.accountingadvice .container-fluid .container .startupbusiness h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.accountingadvice .container-fluid .container .startupbusiness p {
+  line-height: 5px;
+  margin-top: 20px;
+  color: #191919;
+}
+.accountingadvice .container-fluid .container .financialadvice {
+  grid-area: 2/3/-1/4;
+}
+.accountingadvice .container-fluid .container .financialadvice h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.accountingadvice .container-fluid .container .financialadvice p {
+  line-height: 5px;
+  margin-top: 20px;
+  color: #191919;
+}
+.accountingadvice .container-fluid .container .riskmanagement {
+  grid-area: 2/4/-1/5;
+}
+.accountingadvice .container-fluid .container .riskmanagement h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 25px;
+}
+.accountingadvice .container-fluid .container .riskmanagement p {
+  line-height: 5px;
+  margin-top: 20px;
+  color: #191919;
+}
+
+.aboutcompany {
+  background-color: white;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.aboutcompany .container {
+  display: grid;
+  grid-template-rows: repeat(15, 41px);
+  grid-template-columns: repeat(4, 360px);
+  padding: 0px;
+}
+.aboutcompany .container .picture {
+  grid-area: 1/1/-1/3;
+  margin-left: 50px;
+}
+.aboutcompany .container .founder {
+  grid-area: 11/1/15/2;
+  background-color: #BEEBFF;
+  color: #191919;
+  padding: 20px;
+}
+.aboutcompany .container .founder h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.aboutcompany .container .founder h2 span {
+  color: #F94D1C;
+}
+.aboutcompany .container .founder p {
+  line-height: 10px;
+  margin-top: 20px;
+}
+.aboutcompany .container .expertcompany {
+  grid-area: 1/3/-1/-1;
+  margin-left: 60px;
+}
+.aboutcompany .container .expertcompany .toptext {
+  color: #F94D1C;
+}
+.aboutcompany .container .expertcompany h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+.aboutcompany .container .expertcompany .textspace {
+  margin-top: 30px;
+}
+.aboutcompany .container .expertcompany .buttons {
+  margin-top: 100px;
+}
+.aboutcompany .container .expertcompany .buttons .white-btn {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.aboutcompany .container .expertcompany .buttons a {
+  color: #191919;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.ourservices {
+  background-color: #F0EFE9;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.ourservices .container h1 {
+  color: #191919;
+  font-weight: bold;
+}
+.ourservices .container .advices {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ourservices .container .advices .infobox {
+  padding: 20px 30px 50px 20px;
+  background-color: white;
+}
+.ourservices .container .advices .infobox:hover {
+  background-color: #F9D783;
+}
+.ourservices .container .advices .infobox:hover .black-btn {
+  color: #191919;
+  background-color: white;
+  border: none;
+}
+.ourservices .container .advices .infobox:hover .black-btn i {
+  color: #191919;
+}
+.ourservices .container .advices .infobox .line {
+  color: #191919;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.ourservices .container .advices .infobox h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.ourservices .container .advices .infobox p {
+  line-height: 10px;
+  color: #191919;
+}
+.ourservices .container .advices .infobox .black-btn {
+  margin-left: 190px;
+  border-radius: 50%;
+}
+.ourservices .container .advices .infobox .black-btn i {
+  font-size: 20px;
+}
+.ourservices .container .fixateddiv {
+  display: flex;
+  justify-content: center;
+}
+.ourservices .container .fixateddiv .transparent-btn {
+  font-size: 16px;
+}
+
+.whychooseus {
+  background-color: white;
+}
+.whychooseus .container-fluid {
+  display: grid;
+  grid-template-columns: repeat(19, 100px);
+  grid-template-rows: repeat(8, 100px);
+}
+.whychooseus .container-fluid .leftbox {
+  grid-area: 2/4/8/8;
+}
+.whychooseus .container-fluid .leftbox h1 {
+  margin-bottom: 40px;
+}
+.whychooseus .container-fluid .leftbox .infobox {
+  display: flex;
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+.whychooseus .container-fluid .leftbox .infobox .text {
+  margin-left: 30px;
+}
+.whychooseus .container-fluid .rightbox {
+  grid-area: 2/11/7/18;
+  z-index: 1;
+}
+.whychooseus .container-fluid .greybox {
+  grid-area: 4/10/8/-1;
+  background-color: #F0EFE9;
+}
+
+.globalprojects {
+  background-color: white;
+  margin-bottom: 70px;
+}
+.globalprojects .container-fluid .toptext {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+.globalprojects .container-fluid .container {
+  display: grid;
+  grid-template-rows: repeat(2, 450px);
+  grid-template-columns: repeat(2, 645px);
+  gap: 30px;
+}
+.globalprojects .container-fluid .container .article {
+  display: block;
+}
+.globalprojects .container-fluid .container .article h2 {
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(25, 25, 25, 0.3490196078);
+}
+.globalprojects .container-fluid .container .article a {
+  text-decoration: none;
+}
+.globalprojects .container-fluid .container .article p {
+  margin-left: 530px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+.globalprojects .container-fluid .bottomplacement {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.meetourteam {
+  background-color: #F0D082;
+  padding-top: 150px;
+}
+.meetourteam .container {
+  display: grid;
+  grid-template-rows: repeat(11, 150px);
+  grid-template-columns: 100px 1300px 100px;
+  justify-content: center;
+}
+.meetourteam .container .topofsection {
+  grid-area: 1/2/2/3;
+  display: flex;
+  justify-content: space-between;
+}
+.meetourteam .container .topofsection .yellow-btn {
+  height: 55px;
+  width: 220px;
+  margin-top: 20px;
+  border: 2px solid #707070;
+}
+.meetourteam .container .teammembers {
+  grid-area: 2/2/6/3;
+  display: block;
+}
+.meetourteam .container .teammembers .members {
+  display: flex;
+  justify-content: space-between;
+}
+.meetourteam .container .teammembers .members .infobox h2 {
+  margin-top: 15px;
+}
+.meetourteam .container .teammembers .members .infobox p {
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.meetourteam .container .slider {
+  display: flex;
+  justify-content: center;
+}
+.meetourteam .container .slider i {
+  margin: 5px;
+}
+.meetourteam .container .testimonial {
+  grid-area: 6/1/11/-1;
+  background-color: white;
+}
+.meetourteam .container .testimonial .toptext {
+  text-align: center;
+  margin-top: 100px;
+}
+.meetourteam .container .testimonial .clients {
+  display: flex;
+  justify-content: space-evenly;
+}
+.meetourteam .container .testimonial .clients .infobox {
+  height: 300px;
+  width: 350px;
+  margin-top: 70px;
+}
+.meetourteam .container .testimonial .clients .infobox .stars {
+  color: #F94D1C;
+}
+.meetourteam .container .testimonial .clients .infobox .text {
+  margin-top: 20px;
+}
+.meetourteam .container .testimonial .clients .infobox .text p {
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.meetourteam .container .testimonial .clients .infobox .client {
+  display: flex;
+}
+.meetourteam .container .testimonial .clients .infobox .client .picture {
+  margin-right: 15px;
+}
+.meetourteam .container .testimonial .clients .infobox .client .clientinfo {
+  margin-top: 10px;
+}
+.meetourteam .container .testimonial .clients .infobox .client .clientinfo p {
+  color: #F94D1C;
+}
+.meetourteam .container .testimonial .placement {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.articlesandnews {
+  padding-top: 120px;
+  display: flex;
+}
+.articlesandnews .container {
+  display: grid;
+  grid-template-rows: repeat(8, 100px);
+  grid-template-columns: 1300px;
+  padding: 0px 0px 0px 15px;
+}
+.articlesandnews .container .topofsection {
+  grid-area: 1/1/2/-1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.articlesandnews .container .topofsection .transparent-btn {
+  height: 55px;
+  width: 220px;
+  margin-top: 20px;
+}
+.articlesandnews .container .articles {
+  grid-area: 2/1/7/-1;
+  display: flex;
+  justify-content: space-between;
+}
+.articlesandnews .container .articles .infobox {
+  margin-left: 7px;
+}
+.articlesandnews .container .articles .infobox p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.articlesandnews .container .slider {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.articlesandnews .container .slider i {
+  padding: 10px;
+}
+
+.getupdates {
+  background-color: #F0EFE9;
+  position: relative;
+}
+.getupdates .container {
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+.getupdates .container .content {
+  display: flex;
+  justify-content: space-between;
+}
+.getupdates .container .content .subscribe {
+  display: flex;
+  align-items: center;
+  margin-left: 350px;
+}
+.getupdates .container .content .subscribe .email {
+  width: 250px;
+  height: 40px;
+  padding: 20px;
+  margin: 0px 10px 0px 0px;
+  font-size: 13px;
+  color: #191919;
+  background-color: white;
+  border-radius: 25px;
+}
+.getupdates img {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+}
+
+.footer {
+  background-color: #0E1021;
+  position: relative;
+}
+.footer .line {
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+}
+.footer .container {
+  display: grid;
+  grid-template-rows: repeat(4, 80px);
+  grid-template-columns: 420px 225px 225px 225px 225px;
+  align-items: center;
+}
+.footer .container h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+.footer .container p {
+  color: #707070;
+  margin-top: 30px;
+}
+.footer .container .logo {
+  grid-area: 1/1/-1/2;
+}
+.footer .container .logo p {
+  line-height: 25px;
+  margin-right: 80px;
+}
+.footer .container .company {
+  grid-area: 1/2/-1/3;
+}
+.footer .container .help {
+  grid-area: 1/3/-1/4;
+}
+.footer .container .resources {
+  grid-area: 1/4/-1/5;
+}
+.footer .container .link {
+  grid-area: 1/5/-1/-1;
+}
+.footer .container-fluid {
+  border-top: 1px solid #707070;
+}
+.footer .container-fluid .container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .container-fluid .container .copyright p {
+  margin: 0px;
+  padding: 0px 10px;
+  color: white;
+}
+.footer .container-fluid .container .socialmedia a {
+  color: white;
+  padding: 0px 10px;
+}
+
+.breadcrumb {
+  background-color: #F0EFE9;
+}
+.breadcrumb .container-fluid {
+  height: 300px;
+  position: relative;
+  text-align: center;
+}
+.breadcrumb .container-fluid .links {
+  margin-top: 100px;
+}
+.breadcrumb .container-fluid .links a {
+  color: #191919;
+  text-decoration: none;
+}
+.breadcrumb .container-fluid .picture {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.newsandarticlespage {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.newsandarticlespage .container {
+  display: grid;
+  grid-template-rows: 100px, repeat(3, 430px);
+  grid-template-columns: repeat(3, 420px);
+  gap: 30px;
+  padding: 0px 0px 0px 15px;
+}
+.newsandarticlespage .container h1 {
+  grid-area: 1/1/2/-1;
+}
+.newsandarticlespage .container .infobox p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.newsandarticlespage .container .navigation {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.newsandarticlespage .container .navigation li {
+  padding: 5px;
+}
+.newsandarticlespage .container .navigation a {
+  color: #19191B;
+}
+.newsandarticlespage .container .navigation a:hover {
+  background-color: #19191B;
+  color: white;
+}
+
+.detailedarticle {
+  margin-top: 80px;
+}
+.detailedarticle .container {
+  display: grid;
+  grid-template-columns: 770px 420px;
+  -moz-column-gap: 150px;
+       column-gap: 150px;
+  padding: 0px;
+}
+.detailedarticle .container .article {
+  grid-column: 1/2;
+}
+.detailedarticle .container .article .title {
+  margin-bottom: 30px;
+}
+.detailedarticle .container .article .title h1 {
+  margin-bottom: 20px;
+}
+.detailedarticle .container .article .title .info {
+  display: flex;
+}
+.detailedarticle .container .article .title .info p {
+  padding: 10px;
+}
+.detailedarticle .container .article .title .info i {
+  color: #F9D783;
+  font-size: 10px;
+  padding: 5px;
+}
+.detailedarticle .container .article .text {
+  margin-top: 20px;
+}
+.detailedarticle .container .article .text p {
+  padding-right: 15px;
+  line-height: 25px;
+  line-break: strict;
+}
+.detailedarticle .container .article .text .quote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.detailedarticle .container .article .tags {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.detailedarticle .container .article .tags a {
+  text-decoration: none;
+  color: #191919;
+  background-color: #c7c7c7;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+.detailedarticle .container .sidebar {
+  grid-column: 2/3;
+  margin-top: 190px;
+}
+.detailedarticle .container .sidebar .search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  background-color: #dad8d8;
+  border-radius: 25px;
+}
+.detailedarticle .container .sidebar .search i {
+  margin-left: 15px;
+}
+.detailedarticle .container .sidebar .search input {
+  border: none;
+  background-color: #dad8d8;
+  margin-left: 15px;
+}
+.detailedarticle .container .sidebar .recentposts {
+  border: 2px solid #dad8d8;
+  margin-top: 30px;
+  padding: 20px;
+}
+.detailedarticle .container .sidebar .recentposts h2 {
+  margin-top: 20px;
+}
+.detailedarticle .container .sidebar .recentposts .recentpost {
+  border-top: 1px solid #dad8d8;
+}
+.detailedarticle .container .sidebar .recentposts .recentpost .title {
+  font-size: medium;
+}
+.detailedarticle .container .sidebar .recentposts .recentpost .timestamp {
+  font-size: 15px;
+}
+.detailedarticle .container .sidebar .categories {
+  border: 2px solid #dad8d8;
+  margin-top: 30px;
+  padding: 20px;
+}
+.detailedarticle .container .sidebar .categories h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.detailedarticle .container .sidebar .categories ul {
+  list-style: none;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.letsconnect {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.letsconnect .container {
+  display: grid;
+  grid-template-rows: 275px;
+  grid-template-columns: repeat(3, 420px);
+  -moz-column-gap: 28px;
+       column-gap: 28px;
+  padding: 0px;
+}
+.letsconnect .container .contact {
+  grid-area: 1/1/-1/-1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.letsconnect .container .contact .infobox {
+  width: 420px;
+  height: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cfcdcd;
+}
+.letsconnect .container .contact .infobox i {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+}
+.letsconnect .container .contact .infobox .info {
+  margin-left: 15px;
+}
+.letsconnect .second {
+  background-color: #F0EFE9;
+  padding: 0px;
+  display: grid;
+  grid-template-rows: repeat(3, 250px);
+  grid-template-columns: 150px 1020px 150px;
+  padding-bottom: 50px;
+}
+.letsconnect .second h1 {
+  grid-area: 1/2/2/3;
+  text-align: center;
+  margin-top: 100px;
+}
+.letsconnect .second form {
+  grid-area: 2/2/-1/3;
+  display: grid;
+  grid-template-rows: 90px 90px 220px 70px;
+}
+.letsconnect .second form input {
+  border: none;
+  border-radius: 25px;
+  padding: 0px 30px;
+  margin: 10px 10px;
+  height: 60px;
+}
+.letsconnect .second form textarea {
+  border: none;
+  border-radius: 25px;
+  padding: 20px 30px;
+  margin: 10px;
+  resize: none;
+}
+.letsconnect .second form .yellow-btn {
+  padding: 0px 30px;
+  margin: 10px;
+}
