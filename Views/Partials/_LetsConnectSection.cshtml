@@ -31,17 +31,17 @@
     </div>
     <div class="container second">
         <h1>Leave us a message<br> for any information.</h1>
-        <form>
-            <input type="text" for="name" id="name" name="name" placeholder="Name*">
+    <form id="myForm" autocomplete="off">
+        <input type="text" id="name" name="name" placeholder="Name*">
+        <input type="text" id="email" name="email" placeholder="Email*">
+        <textarea id="message" name="message" placeholder="Your Message*" style="height: 160px;"></textarea>
+        <button type="submit" class="yellow-btn">
+            Send Message <i class="fa-light fa-arrow-up-right"></i>
+        </button>
+    </form>
+    
+    
 
-            <input type="text" for="email" id="email" name="email" placeholder="Email*">
-
-            <textarea type="text" for="message" id="message" name="message" placeholder="Your Message*" style="height: 160px;"></textarea>
-
-            <button type="submit" class="yellow-btn">
-                Send Message <i class="fa-light fa-arrow-up-right"></i>
-            </button>
-        </form>
     </div>
 </section>
 <!-- letsconnect end -->
