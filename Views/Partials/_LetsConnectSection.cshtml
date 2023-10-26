@@ -1,4 +1,8 @@
-﻿@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+﻿
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    var contactForm = new Crito.Models.ContactForm();
+}
 <!-- letsconnect start -->
 <section class="letsconnect">
     <div class="container">
@@ -31,14 +35,17 @@
     </div>
     <div class="container second">
         <h1>Leave us a message<br> for any information.</h1>
-    <form id="myForm" autocomplete="off">
-        <input type="text" id="name" name="name" placeholder="Name*">
-        <input type="text" id="email" name="email" placeholder="Email*">
-        <textarea id="message" name="message" placeholder="Your Message*" style="height: 160px;"></textarea>
+
+    @using (Html.BeginUmbracoForm("Index", "Contacts", FormMethod.Post))
+    {
+        <div asp-validation-summary="All"></div>
+        <input asp-for="@contactForm.Name" type="text" name="name" placeholder="Name*">
+        <input asp-for="@contactForm.Email" type="text"  name="email" placeholder="Email*">
+        <textarea asp-for="@contactForm.Message" name="message" placeholder="Your Message*" style="height: 160px;"></textarea>
         <button type="submit" class="yellow-btn">
             Send Message <i class="fa-light fa-arrow-up-right"></i>
         </button>
-    </form>
+    }
     
     
 
